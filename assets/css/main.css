@@ -306,6 +306,8 @@ h6 {
   margin: 0;
   font-weight: 700;
   color: var(--heading-color);
+  max-height: 50px;
+  margin-right: 10px;
 }
 
 .header .logo span {
