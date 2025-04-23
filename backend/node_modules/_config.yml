@@ -1,0 +1,2 @@
+exclude:
+  - backend/node_modules
