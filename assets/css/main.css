@@ -887,36 +887,36 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# home Section
 --------------------------------------------------------------*/
-.hero {
+.home {
   width: 100%;
   position: relative;
   padding: 140px 0 0 0;
 }
 
-.hero .container {
+.home .container {
   position: relative;
   z-index: 3;
 }
 
-.hero h2 {
+.home h2 {
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.hero h2 .accent {
+.home h2 .accent {
   color: var(--conrast-color);
 }
 
-.hero p {
+.home p {
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   font-weight: 400;
   margin-bottom: 30px;
 }
 
-.hero .btn-get-started {
+.home .btn-get-started {
   color: var(--contrast-color);
   background: var(--accent-color);
   font-family: var(--heading-font);
@@ -931,11 +931,11 @@ section,
   background-color: color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
-.hero .btn-get-started:hover {
+.home .btn-get-started:hover {
   border-color: color-mix(in srgb, var(--default-color), transparent 60%);
 }
 
-.hero .btn-watch-video {
+.home .btn-watch-video {
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
@@ -943,7 +943,7 @@ section,
   color: var(--default-color);
 }
 
-.hero .btn-watch-video i {
+.home .btn-watch-video i {
   color: color-mix(in srgb, var(--default-color), transparent 50%);
   font-size: 32px;
   transition: 0.3s;
@@ -951,28 +951,28 @@ section,
   margin-right: 8px;
 }
 
-.hero .btn-watch-video:hover i {
+.home .btn-watch-video:hover i {
   color: var(--default-color);
 }
 
 @media (max-width: 640px) {
-  .hero h2 {
+  .home h2 {
     font-size: 36px;
   }
 
-  .hero .btn-get-started,
-  .hero .btn-watch-video {
+  .home .btn-get-started,
+  .home .btn-watch-video {
     font-size: 14px;
   }
 }
 
-.hero .icon-boxes {
+.home .icon-boxes {
   padding-bottom: 60px;
   z-index: 4;
 }
 
 @media (min-width: 1200px) {
-  .hero .icon-boxes:before {
+  .home .icon-boxes:before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -984,7 +984,7 @@ section,
   }
 }
 
-.hero .icon-box {
+.home .icon-box {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
@@ -998,18 +998,18 @@ section,
   text-align: center;
 }
 
-.hero .icon-box .title {
+.home .icon-box .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
 }
 
-.hero .icon-box .title a {
+.home .icon-box .title a {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   transition: 0.3s;
 }
 
-.hero .icon-box .icon {
+.home .icon-box .icon {
   margin-bottom: 20px;
   padding-top: 10px;
   display: inline-block;
@@ -1019,12 +1019,12 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
 
-.hero .icon-box:hover {
+.home .icon-box:hover {
   background-color: color-mix(in srgb, var(--background-color), white 10%);
 }
 
-.hero .icon-box:hover .title a,
-.hero .icon-box:hover .icon {
+.home .icon-box:hover .title a,
+.home .icon-box:hover .icon {
   color: var(--contrast-color);
 }
 
